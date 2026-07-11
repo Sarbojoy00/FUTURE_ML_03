@@ -18,69 +18,69 @@ It demonstrates how Natural Language Processing (NLP) and Machine Learning can s
 
 
 
-\---
+---
 
 
 
-\## 🎯 Objectives
+## 🎯 Objectives
 
 
 
-\- Preprocess resume text using NLP techniques.
+- Preprocess resume text using NLP techniques.
 
-\- Parse and clean job descriptions.
+- Parse and clean job descriptions.
 
-\- Extract relevant skills from resumes.
+- Extract relevant skills from resumes.
 
-\- Compare resumes with job descriptions.
+- Compare resumes with job descriptions.
 
-\- Calculate resume-job similarity scores.
+- Calculate resume-job similarity scores.
 
-\- Rank candidates based on role fit.
+- Rank candidates based on role fit.
 
-\- Identify missing skills for each candidate.
-
-
-
-\---
+- Identify missing skills for each candidate.
 
 
 
-\## 🚀 Features
+---
 
 
 
-\- ✅ Resume text preprocessing
-
-\- ✅ Job description preprocessing
-
-\- ✅ Skill extraction using keyword matching
-
-\- ✅ TF-IDF Vectorization
-
-\- ✅ Cosine Similarity scoring
-
-\- ✅ Resume ranking
-
-\- ✅ Skill gap identification
-
-\- ✅ Candidate comparison
-
-\- ✅ Professional visualizations
-
-\- ✅ Export results as CSV files
+## 🚀 Features
 
 
 
-\---
+- ✅ Resume text preprocessing
+
+- ✅ Job description preprocessing
+
+- ✅ Skill extraction using keyword matching
+
+- ✅ TF-IDF Vectorization
+
+- ✅ Cosine Similarity scoring
+
+- ✅ Resume ranking
+
+- ✅ Skill gap identification
+
+- ✅ Candidate comparison
+
+- ✅ Professional visualizations
+
+- ✅ Export results as CSV files
 
 
 
-\## 📂 Dataset
+---
 
 
 
-\*\*Dataset Used:\*\*
+## 📂 Dataset
+
+
+
+**Dataset Used:**
 
 
 
@@ -92,13 +92,13 @@ The dataset contains:
 
 
 
-\- Resume ID
+- Resume ID
 
-\- Resume Text
+- Resume Text
 
-\- Resume HTML
+- Resume HTML
 
-\- Resume Category
+- Resume Category
 
 
 
@@ -110,115 +110,115 @@ https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
 
 
 
-\---
+---
 
 
 
-\## 🛠 Technologies Used
+## 🛠 Technologies Used
 
 
 
-\- Python
+- Python
 
-\- Google Colab
+- Google Colab
 
-\- Pandas
+- Pandas
 
-\- NumPy
+- NumPy
 
-\- NLTK
+- NLTK
 
-\- Scikit-learn
+- Scikit-learn
 
-\- Matplotlib
+- Matplotlib
 
-\- Seaborn
+- Seaborn
 
 
 
-\---
+---
 
 
 
-\## 📚 Machine Learning Workflow
+## 📚 Machine Learning Workflow
 
 
 
-\### 1. Data Loading
+### 1. Data Loading
 
 
 
-\- Load resume dataset
+- Load resume dataset
 
 
 
-\### 2. Text Preprocessing
+### 2. Text Preprocessing
 
 
 
-\- Convert text to lowercase
+- Convert text to lowercase
 
-\- Remove URLs
+- Remove URLs
 
-\- Remove punctuation
+- Remove punctuation
 
-\- Remove numbers
+- Remove numbers
 
-\- Remove stopwords
+- Remove stopwords
 
 
 
-\### 3. Job Description Processing
+### 3. Job Description Processing
 
 
 
-\- Clean the job description
+- Clean the job description
 
-\- Convert into machine-readable format
+- Convert into machine-readable format
 
 
 
-\### 4. Feature Extraction
+### 4. Feature Extraction
 
 
 
-\- TF-IDF Vectorization
+- TF-IDF Vectorization
 
 
 
-\### 5. Similarity Calculation
+### 5. Similarity Calculation
 
 
 
-\- Cosine Similarity between resumes and job description
+- Cosine Similarity between resumes and job description
 
 
 
-\### 6. Candidate Ranking
+### 6. Candidate Ranking
 
 
 
-\- Rank resumes based on similarity score
+- Rank resumes based on similarity score
 
 
 
-\### 7. Skill Gap Analysis
+### 7. Skill Gap Analysis
 
 
 
-\- Extract skills from resumes
+- Extract skills from resumes
 
-\- Compare with required skills
+- Compare with required skills
 
-\- Identify missing skills
+- Identify missing skills
 
 
 
-\---
+---
 
 
 
-\## 📊 Output
+## 📊 Output
 
 
 
@@ -226,29 +226,29 @@ The project generates:
 
 
 
-\- Candidate Match Score
+- Candidate Match Score
 
-\- Resume Ranking
+- Resume Ranking
 
-\- Skills Found
+- Skills Found
 
-\- Missing Skills
+- Missing Skills
 
-\- Ranking Results CSV
+- Ranking Results CSV
 
-\- Skill Gap Report CSV
+- Skill Gap Report CSV
 
-\- Candidate Ranking Graph
+- Candidate Ranking Graph
 
-\- Similarity Score Distribution Graph
-
-
-
-\---
+- Similarity Score Distribution Graph
 
 
 
-\## 📈 Sample Output
+---
+
+
+
+## 📈 Sample Output
 
 
 
@@ -268,33 +268,33 @@ The project generates:
 
 
 
-\---
+---
 
 
 
-\## 💡 How the System Scores Resumes
+## 💡 How the System Scores Resumes
 
 
 
-1\. The resume text is cleaned and preprocessed.
+1. The resume text is cleaned and preprocessed.
 
-2\. The job description undergoes the same preprocessing.
+2. The job description undergoes the same preprocessing.
 
-3\. TF-IDF converts both texts into numerical feature vectors.
+3. TF-IDF converts both texts into numerical feature vectors.
 
-4\. Cosine Similarity measures how closely each resume matches the job description.
+4. Cosine Similarity measures how closely each resume matches the job description.
 
-5\. A higher similarity score indicates a better match for the job role.
+5. A higher similarity score indicates a better match for the job role.
 
-6\. Candidates are ranked from highest to lowest score.
-
-
-
-\---
+6. Candidates are ranked from highest to lowest score.
 
 
 
-\## 🔍 How Skill Gaps Are Identified
+---
+
+
+
+## 🔍 How Skill Gaps Are Identified
 
 
 
@@ -306,9 +306,9 @@ The system identifies:
 
 
 
-\- Skills present in the resume
+- Skills present in the resume
 
-\- Skills missing from the resume
+- Skills missing from the resume
 
 
 
@@ -316,11 +316,11 @@ This helps recruiters quickly identify areas where candidates may need additiona
 
 
 
-\---
+---
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -348,15 +348,15 @@ Resume-Screening-System/
 
 
 
-\---
+---
 
 
 
-\## ▶️ How to Run
+## ▶️ How to Run
 
 
 
-\### 1. Clone the repository
+### 1. Clone the repository
 
 
 
@@ -368,7 +368,7 @@ git clone https://github.com/yourusername/Resume-Screening-System.git
 
 
 
-\### 2. Install dependencies
+### 2. Install dependencies
 
 
 
@@ -380,7 +380,7 @@ pip install -r requirements.txt
 
 
 
-\### 3. Open the notebook
+### 3. Open the notebook
 
 
 
@@ -392,11 +392,11 @@ resume\_screening.ipynb
 
 
 
-\### 4. Run all notebook cells.
+### 4. Run all notebook cells.
 
 
 
-\### 5. Enter a job description when prompted.
+### 5. Enter a job description when prompted.
 
 
 
@@ -404,23 +404,23 @@ The system will automatically:
 
 
 
-\- Calculate similarity scores
+- Calculate similarity scores
 
-\- Rank candidates
+- Rank candidates
 
-\- Identify missing skills
+- Identify missing skills
 
-\- Generate graphs
+- Generate graphs
 
-\- Save CSV reports
-
-
-
-\---
+- Save CSV reports
 
 
 
-\## 📊 Business Impact
+---
+
+
+
+## 📊 Business Impact
 
 
 
@@ -428,81 +428,65 @@ This project can help organizations:
 
 
 
-\- Reduce manual resume screening time.
+- Reduce manual resume screening time.
 
-\- Improve hiring efficiency.
+- Improve hiring efficiency.
 
-\- Rank applicants objectively.
+- Rank applicants objectively.
 
-\- Identify candidates with the closest skill match.
+- Identify candidates with the closest skill match.
 
-\- Highlight missing skills for better recruitment decisions.
+- Highlight missing skills for better recruitment decisions.
 
-\- Support recruiters in shortlisting candidates more effectively.
-
-
-
-\---
+- Support recruiters in shortlisting candidates more effectively.
 
 
 
-\## 📷 Generated Outputs
+---
 
 
 
-\- Candidate Ranking Chart
-
-\- Similarity Score Distribution
-
-\- Ranking Results CSV
-
-\- Skill Gap Report CSV
+## 📷 Generated Outputs
 
 
 
-\---
+- Candidate Ranking Chart
+
+- Similarity Score Distribution
+
+- Ranking Results CSV
+
+- Skill Gap Report CSV
 
 
 
-\## 🔮 Future Improvements
+---
 
 
 
-\- PDF Resume Parsing
-
-\- Named Entity Recognition (NER) using spaCy
-
-\- ATS-style resume scoring
-
-\- Automatic skill extraction using transformer models
-
-\- Semantic matching with BERT or Sentence Transformers
-
-\- Interactive web application using Streamlit or Flask
+## 🔮 Future Improvements
 
 
 
-\---
+- PDF Resume Parsing
+
+- Named Entity Recognition (NER) using spaCy
+
+- ATS-style resume scoring
+
+- Automatic skill extraction using transformer models
+
+- Semantic matching with BERT or Sentence Transformers
+
+- Interactive web application using Streamlit or Flask
 
 
 
-\## 👨‍💻 Author
+---
 
 
 
-\*\*Sarbojoy Ghosal\*\*
-
-
-
-Machine Learning Intern – Future Interns
-
-
-
-\---
-
-
-
-\## 📜 License
+## 📜 License
 
 
 
